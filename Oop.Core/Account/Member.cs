@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Oop.Infrastructure;
 
 namespace Oop.Core.Account
 {
@@ -10,7 +11,7 @@ namespace Oop.Core.Account
     {
         public Member()
         {
-            AddRole("member");
+            AddRole(Constant.Role.Member);
         }
     }
 }

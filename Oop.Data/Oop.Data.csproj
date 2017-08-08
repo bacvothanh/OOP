@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\AuditTable.cs" />
+    <Compile Include="Base\BaseTable.cs" />
+    <Compile Include="Models\AccountTable.cs" />
+    <Compile Include="Models\RoleTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
